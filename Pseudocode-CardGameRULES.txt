@@ -1,0 +1,17 @@
+/*
+Dorothy Bui - October 18, 2017 - Period 2
+Pseudocode Card Game rules
+A standard sset of rules for the card gae War
+Rules for the card game: War
+*/
+
+war requires a standard deck of 52 card
+a deck of cards is evenly divided among 2 players
+players keep their cards in their deck facedown
+the players simultaneously take the card from the top of their deck down facing upwards
+each card has a value: Ace=14, King=13, Queen=12, Jack=11, 10=10, 9=9, 8=8, 7=7, 6=6, 5=5, 4=4, 3=3, and 2=2
+the player with the higher card value receives the cards played in that round
+if the players encounter a situation where they place down cards with the same value: they enter "war" and both place down one card face down then another one face up
+continue "war" if the players continue to put down cards face up with the same value
+the player with the higher faceup card value in the "war" receives all the cards played in that round
+the game ends when one player has all of the cards in the deck

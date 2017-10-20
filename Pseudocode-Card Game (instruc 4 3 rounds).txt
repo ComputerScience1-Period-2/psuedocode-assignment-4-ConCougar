@@ -1,0 +1,31 @@
+/*
+Dorothy Bui - October 18, 2017 - Period 2
+Pseudocode Card Game instructions
+Create a set of instructions, as detailed as possible, for a classic card game
+Card game: war
+*/
+
+aquire a deck of cards
+remove joker cards
+divide the rest of the cards evenly among two players (cards are to remain facedown and players are NOT allowed to look at their cards)
+each card has a value: Ace equals 14, King equals 13, Queen equals 12, Jack equals 11, 10 equals 10, 9 equals 9, 8 equals 8, 7 equals 7, 6 equals 6, 5 equals 5, 4 equals 4, 3 equals 3, and 2 equals 2
+for number of rounds equals 1 and players simultaneously place the first card from the top of their deck down with the card facing upwards and number of rounds is less than 3:
+	if player 1's card has a greater value than player 2's card:
+		player 1 receives both cards that were played in that round and adds them to the bottom of their deck
+	else if player 2's card has a greater value than player 1's card:
+		player 2 receives both cards that were played in that round and adds them to the bottom of their deck
+	else player 1's card and player 2's card have the same value: 
+		both players enter "war" where both place down one card facedown then another card faceup  
+		if player 1's 2nd faceup card is greater than player 2's 2nd faceup card:
+			player 1 receives all the cards played during that round adds them to the bottom of their deck
+		else if player 2's second faceup card is greater than player 1's 2nd faceup card:
+			player 2 receives all the cards played during that round adds them to the bottom of their deck
+		else player 1's card and player 2's second face up card have the same value: 
+			both players enter another "war" where both place down one card facedown then another card faceup in 
+				while player 1's card and player 2's face up cards after "war" continue to have the same value:
+					both players enter "war" where both place down one card facedown then another card faceup 
+					if player 1's 2nd faceup card is greater than player 2's 2nd faceup card:
+						player 1 receives all the cards played during that round adds them to the bottom of their deck
+					else if player 2's second faceup card is greater than player 1's 2nd faceup card:
+						player 2 receives all the cards played during that round adds them to the bottom of their deck
+		
