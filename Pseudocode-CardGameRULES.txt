@@ -1,7 +1,7 @@
 /*
 Dorothy Bui - October 18, 2017 - Period 2
 Pseudocode Card Game rules
-A standard sset of rules for the card gae War
+A standard sset of rules for the card game War
 Rules for the card game: War
 */
 
