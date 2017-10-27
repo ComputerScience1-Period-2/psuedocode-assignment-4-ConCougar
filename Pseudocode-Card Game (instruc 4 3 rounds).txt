@@ -24,8 +24,8 @@ for number of rounds equals 1 and players simultaneously place the first card fr
 			both players enter another "war" where both place down one card facedown then another card faceup in 
 				while player 1's card and player 2's face up cards after "war" continue to have the same value:
 					both players enter "war" where both place down one card facedown then another card faceup 
-					if player 1's 2nd faceup card is greater than player 2's 2nd faceup card:
-						player 1 receives all the cards played during that round adds them to the bottom of their deck
-					else if player 2's second faceup card is greater than player 1's 2nd faceup card:
-						player 2 receives all the cards played during that round adds them to the bottom of their deck
+				if player 1's 2nd faceup card is greater than player 2's 2nd faceup card:
+					player 1 receives all the cards played during that round adds them to the bottom of their deck
+				else if player 2's second faceup card is greater than player 1's 2nd faceup card:
+					player 2 receives all the cards played during that round adds them to the bottom of their deck
 		
